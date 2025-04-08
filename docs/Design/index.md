@@ -1,38 +1,33 @@
----
-outline: deep
----
+# UI设计栏目 | 让界面讲述美好故事
 
-# Runtime API Code
+**前言**
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+在数字与美学交汇处，UI设计正在重新定义人与技术的对话方式。欢迎来到「设计」，这里是视觉叙事者的灵感实验室。
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
+### 栏目定位
+我们聚焦：
+- 🎨 **设计思维**：从用户需求到界面语言
+- ✨ **视觉魔法**：色彩、排版与动效原理
+- 📱 **产品逻辑**：交互背后的用户体验
+- 🛠️ **工具流**：Figma/Sketch/PS实战技巧
 
-```md
-<script setup>
-import { useData } from 'vitepress'
+### 内容矩阵
+1. **基础必修课**
+   - 设计规范解剖（iOS/Android/Web）
+   - 设计系统构建指南
+   - 避坑手册：新手常见误区
 
-const { theme, page, frontmatter } = useData()
-</script>
+2. **进阶工作坊**
+   - 微交互设计精髓
+   - 无障碍设计实践
 
-## Results
+3. **趋势观察站**
+   - 年度设计趋势报告
+   - 顶尖产品设计拆解
+   - AI时代的设计变革
 
-### Theme Data
-<pre>{{ theme }}</pre>
+### 设计哲学
+> "好的设计是隐形的，但糟糕的设计无处不在。"  
+> 我们坚持：美学与功能必须共生，像素级完美值得追求。
 
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-```
-
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+准备好用设计改变数字体验了吗？Let's create interfaces that speak!

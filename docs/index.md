@@ -6,11 +6,14 @@ hero:
   name: "BinStork"
   text: "乐观向上-充满希望"
   tagline: 一条路的终点，是另一条路的起点
+  image:
+    src: /images/long_logo.png
+    alt: BinStork
   actions:
-    - theme: 编程
+    - theme: brand
       text: 🧑🏼‍💻Debug人生，优化世界
       link: /Code/index
-    - theme: 设计
+    - theme: alt
       text: 💻 像素之间，体验至上
       link: /Design/index
 

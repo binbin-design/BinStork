@@ -1,38 +1,35 @@
----
-outline: deep
----
+# 精选视频栏目 | 看见世界的另一种方式
 
-# Runtime API Code
+**前言**
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+在这个视觉至上的时代，好的视频能跨越语言，直抵心灵。欢迎来到「精选视频栏目」，一个为你过滤信息噪音的品质视觉空间。
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
+### 栏目定位
+我们致力于：
+- 🎬 **深度挖掘**：每期1支值得全屏观看的视频
+- 🌍 **多元视角**：涵盖科技/人文/自然/艺术领域
+- 💡 **价值延伸**：不只是观看，更要思考
+- 🕶️ **避坑指南**：帮你节省生命中的3小时
 
-```md
-<script setup>
-import { useData } from 'vitepress'
+### 内容维度
+1. **视觉档案**
+   - 奥斯卡级短片赏析
+   - 教科书式运镜解析
+   - 颠覆认知的科学可视化
 
-const { theme, page, frontmatter } = useData()
-</script>
+2. **幕后解码**
+   - 导演创作手记
+   - 爆款视频的底层逻辑
+   - 那些一帧值千金的细节
 
-## Results
+3. **特别企划**
+   - 年度十佳视频盘点
+   - 被低估的小众创作者
+   - AI视频革命前沿报告
 
-### Theme Data
-<pre>{{ theme }}</pre>
+### 我们的信条
+> "真正的视频艺术，是让时间变得有价值。"  
+> 我们相信：好视频应该被看见两次——一次用眼睛，一次用大脑。
 
-### Page Data
-<pre>{{ page }}</pre>
 
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-```
-
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+准备好重新定义你的观看体验了吗？按下播放

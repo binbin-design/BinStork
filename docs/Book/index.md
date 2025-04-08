@@ -1,38 +1,33 @@
----
-outline: deep
----
+# 小说书斋 | 在文字宇宙中漫游
 
-# Runtime API Code
+**前言**
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+翻开一本书，就是打开一个平行宇宙。这里是「小说书斋」，我们以专业眼光打捞文学深海中的珍珠，为爱书人搭建通往故事世界的桥梁。
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
+### 栏目特色
+- 📚 **深度书评**：不只有"好看"与"不好看"
+- 🕵️ **文本细读**：解码大师的叙事密码
+- 🌌 **类型探索**：从科幻到武侠的边界穿越
+- ✍️ **创作透视**：经典背后的作家人生
 
-```md
-<script setup>
-import { useData } from 'vitepress'
+### 内容架构
+1. **新书雷达**
+   - 每月值得关注的小说首发
+   - 小众佳作挖掘报告
+   - 文学奖项风向解读
 
-const { theme, page, frontmatter } = useData()
-</script>
+2. **类型专题**
+   - "推理小说的21种套路"
+   - "科幻史的关键转折点"
+   - "网络文学经典化现象"
 
-## Results
+3. **作家特辑**
+   - 创作年表与风格演变
+   - 未出版手稿研究
+   - 作家访谈实录
 
-### Theme Data
-<pre>{{ theme }}</pre>
+### 阅读主张
+> "真正的好小说会改变读者对世界的认知方式"  
+> 我们推崇：保持开放又保持挑剔的阅读姿态
 
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-```
-
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+准备好你的书签，让我们开始这场跨越时空的阅读之旅。下一个改变你世界观的故事，也许就在下一页。

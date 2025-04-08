@@ -1,38 +1,43 @@
----
-outline: deep
----
+# 多元生活馆 | 发现生活的千万种可能
 
-# Runtime API Code
+**前言**
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+生活不是单一赛道，而是由无数热爱编织成的多彩画卷。在这里，我们探索所有让日常发光的技能与艺术。
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
+### 栏目矩阵
+#### 🍸 调酒实验室
+- 从居家调酒到专业技法
+- 每周一款经典鸡尾酒全解析
+- 酒具选购指南与风味搭配
 
-```md
-<script setup>
-import { useData } from 'vitepress'
+#### 🎸 吉他研习社
+- 零基础指弹入门
+- 经典曲目分段教学
+- 设备选购避坑指南
 
-const { theme, page, frontmatter } = useData()
-</script>
+#### 🎵 音乐万花筒
+- 小众音乐发现
+- 音乐制作入门
+- 耳机音响测评
 
-## Results
+#### ✍️ 平面设计工坊
+- 字体/版式设计精髓
+- 海报设计实战案例
+- 设计接单技巧分享
 
-### Theme Data
-<pre>{{ theme }}</pre>
+#### 🛒 电商设计智库
+- 高转化详情页设计
+- 电商视觉营销策略
+- 产品主图精修
 
-### Page Data
-<pre>{{ page }}</pre>
+#### 🌿 生活妙招集
+- 居家清洁黑科技
+- 收纳整理方法论
+- 30秒提升幸福感的小技巧
 
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-```
+### 我们的信念
+> "精通是专业者的勋章，尝试是生活家的浪漫"  
+> 无论你想深耕某个领域，还是简单体验不同乐趣，这里都有属于你的位置。
 
-<script setup>
-import { useData } from 'vitepress'
 
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+💬 你更想先探索哪个领域？留言告诉我们~

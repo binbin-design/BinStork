@@ -1,38 +1,35 @@
----
-outline: deep
----
+# 服务器运维栏目 | 守护数字世界的无名英雄
 
-# Runtime API Code
+**前言**
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+在互联网的底层世界，服务器运维工程师是永不停歇的守夜人。欢迎来到「服务器运维栏目」，这里是基础设施守护者的技术兵工厂。
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
+### 栏目使命
+我们专注：
+- 🛡️ **稳定保障**：构建高可用架构体系
+- 🔍 **故障狩猎**：从异常日志到根因分析
+- 🤖 **自动化革命**：Ansible/Terraform实战
+- ☁️ **云原生时代**：K8s/容器化运维实践
 
-```md
-<script setup>
-import { useData } from 'vitepress'
+### 核心内容
+1. **运维基本功**
+   - Linux系统调优指南
+   - 监控告警体系搭建（Prometheus/Zabbix）
+   - 安全防护红宝书
 
-const { theme, page, frontmatter } = useData()
-</script>
+2. **进阶战场**
+   - 百万级并发架构运维
+   - 混沌工程实践
+   - SRE可靠性工程
 
-## Results
+3. **紧急救援**
+   - 经典故障复盘
+   - 容灾方案设计
+   - 压测与扩容实战
 
-### Theme Data
-<pre>{{ theme }}</pre>
+### 运维信条
+> "最成功的运维是让系统安静到被人遗忘。"
+> 我们相信：预防优于抢救，自动化替代重复，文档即是武器。
 
-### Page Data
-<pre>{{ page }}</pre>
 
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-```
-
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+准备好升级为运维特种兵了吗？Let's keep the lights on!
