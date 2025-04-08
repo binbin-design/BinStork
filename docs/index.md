@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "BinStork"
-  text: "Take you time"
+  text: "一个用于学习记录的博客"
   tagline: 乐观向上-充满希望
   actions:
     - theme: Code
