@@ -87,6 +87,9 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/binbin-design?tab=repositories' }
-    ]
+    ],
+    search: {
+        provider: 'local'
+    }
   }
 })
