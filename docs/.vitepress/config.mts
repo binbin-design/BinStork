@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "BinStork",
-  description: "Be cheerful and hopeful",
+  description: "保持乐观和充满希望",
   head:[
     ['link',{rel:'icon',href:'/images/logo.png'}], 
   ],
