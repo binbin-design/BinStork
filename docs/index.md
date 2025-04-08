@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "BinStork"
-  text: "一个用于学习记录的博客"
+  text: "一条路的终点，是另一条路的起点"
   tagline: 乐观向上-充满希望
   actions:
     - theme: Code
