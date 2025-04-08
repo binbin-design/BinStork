@@ -10,14 +10,14 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/index' },
-      { text: 'Code', link: '/Code/index' },
-      { text: 'Server', link: '/Server/index' },
-      { text: 'Design', link: '/Design/index' },
-      { text: 'APP', link: '/APP/index' },
-      { text: 'Book', link: '/Book/index' },
-      { text: 'Video', link: '/Video/index' },
-      { text: 'Other', link: '/Other/index' },
+      { text: '首页', link: '/index' },
+      { text: '编程', link: '/Code/index' },
+      { text: '服务器', link: '/Server/index' },
+      { text: '实际', link: '/Design/index' },
+      { text: '应用', link: '/APP/index' },
+      { text: '书籍', link: '/Book/index' },
+      { text: '视频', link: '/Video/index' },
+      { text: '其他', link: '/Other/index' },
     ],
     sidebar: {
       '/Code/': [
