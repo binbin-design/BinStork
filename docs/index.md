@@ -1,6 +1,6 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-layout: 首页
+layout: home
 
 hero:
   name: "BinStork"
