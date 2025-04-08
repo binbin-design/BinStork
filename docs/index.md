@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "BinStork"
-  text: "一条路的终点，是另一条路的起点"
-  tagline: 乐观向上-充满希望
+  text: "乐观向上-充满希望"
+  tagline: 一条路的终点，是另一条路的起点
   actions:
     - theme: Code
       text: Markdown Examples
