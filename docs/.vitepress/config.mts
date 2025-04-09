@@ -2,12 +2,22 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'zh-CN',
   title: "BinStork",
   description: "一条路的终点，是另一条路的起点",
+  appearance: true,
+  lastUpdated: true,
   head:[
     ['link',{rel:'icon',href:'/images/logo.png'}], 
   ],
   themeConfig: {
+    outline: 'deep',
+    outlineTitle: '目录',
+    lastUpdatedText: '更新时间',
+    docFooter: {
+      prev: '上一页',
+      next: '下一页',
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/index' },
@@ -22,13 +32,17 @@ export default defineConfig({
     sidebar: {
       '/Code/': [
         {
-          text: '编程',
+          text: '前言',
+          link: '/Code/index',
+          collapsed: false,
+        },
+        {
+          text: 'PHP',
           collapsed: false,
           items: [
-            { text: '前言', link: '/Code/index' },
-            { text: 'PHP', link: '/Code/php/index' },
+            { text: '部署', link: '/Code/php/index' },
           ]
-        }
+        },
       ],
       '/Server/': [
         {
@@ -95,6 +109,6 @@ export default defineConfig({
     footer: {
         message: 'Binstork',
         copyright: 'Copyright © 2025-present Evan You'
-    }
-  }
+    },
+  },
 })
